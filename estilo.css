@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabeca {
+    display: flex;
+    justify-content: space-between;
+    align-items:center; 
+    width: 88,89%;
+    height: 36px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 36px;
+    height: 36px;
+}
+
+.fickle {
+    display: flex;
+    width: fit-content;
+    height: 50px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    gap:12px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.exp{
+    color:#1262af;
+}
+
+.last{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    aspect-ratio: 1/1;
+}
+
+.notification{
+    width: 24px;
+}
+
+.icon{
+    width: 36px;
+}
+
+.imag{
+    width: 100%;
+    height: auto;
+    display: block;  
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url('https://fickleflight-locofy-hasura.netlify.app/static/media/search-container@3x.65abc0bda5bf8437be46.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:640px; 
+    max-height: 640px; 
+    overflow: hidden; 
+    padding: 0 140px;
+    gap: 43px;
+  }
+  
+.title{
+    display: flex;
+    position: relative;
+    z-index: 2;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.Title1{
+    font-size: 57px;
+    font-weight: 800;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Title2{
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.searchF{ 
+   border: 8px;
+   position: relative;
+   background-color: rgb(255, 255, 255);
+   line-height:20px;
+   width: 100%;
+   text-align: center;
+   display: flex;
+   color: rgb(0, 0, 0);
+   height: 140px;
+   border-radius: 10px;
+   padding: 20px;
+   font-size:20px;
+   align-items: start;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-self: stretch;
+   box-sizing: border-box;
+}
+
+.S1{
+    position: relative;
+    line-height: 25px;
+    box-sizing: inherit;
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    padding: 5px;
+    align-self: stretch;
+    box-sizing: border-box;
+}
+
+.searchTitle{
+    display: inline-block;
+    position: relative;
+    width: 1200px;
+    letter-spacing: .04em;
+    align-items: start;
+    text-align: left;
+    color: #303030;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.options{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0px;
+    font-family: "Roboto", sans-serif; 
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    height: 42px;
+    aspect-ratio: 1 1;
+    gap: 12px;
+    width: 100%;
+}
+
+.options input{
+    width: 20px;
+    height: 20px;
+    border-color: blue;
+}
+
+.Return{
+    margin-right: 10px;
+}
+
+.box{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.orange button{
+    display: flex;
+  
+}
+
+
